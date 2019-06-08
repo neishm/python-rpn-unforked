@@ -8,5 +8,5 @@ export rpnpy=$PWD
 ln -sf $PWD/cmcgridf/prog/regeta/2019033000_048 cmcgridf/prog/regeta/$(date +%Y%m%d)00_048
 export CMCGRIDF=$PWD/cmcgridf
 
-python -m pytest --maxfail=2
+python -m pytest
 
